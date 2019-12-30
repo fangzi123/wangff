@@ -4,11 +4,11 @@ spring:
   application:
     name: wangff
   datasource:
-    druid:
-        url: jdbc:mysql://192.168.9.240:3306/activity?useUnicode=true&characterEncoding=utf-8
+        type: com.zaxxer.hikari.HikariDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.9.240:3306/activity?useUnicode=true&characterEncoding=utf-8&useSSL=true
         username: activity
         password: activity_dazb
-        driver-class-name: com.mysql.cj.jdbc.Driver
         initialSize: 1
         maxActive: 20
         minIdle: 1
