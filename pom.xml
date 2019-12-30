@@ -85,19 +85,20 @@
                         <version>8.0.11</version>
                     </dependency>
                     <dependency>
-                        <groupId>tk.mybatis</groupId>
-                        <artifactId>mapper</artifactId>
-                        <version>4.1.5</version>
+                        <groupId>org.mybatis.generator</groupId>
+                        <artifactId>mybatis-generator-core</artifactId>
+                        <version>1.3.7</version>
                     </dependency>
+                    <!--tk.mybatis必备-->
                     <dependency>
                         <groupId>tk.mybatis</groupId>
                         <artifactId>mapper-spring-boot-starter</artifactId>
                         <version>2.1.5</version>
                     </dependency>
                     <dependency>
-                        <groupId>org.mybatis.generator</groupId>
-                        <artifactId>mybatis-generator-core</artifactId>
-                        <version>1.3.7</version>
+                        <groupId>tk.mybatis</groupId>
+                        <artifactId>mapper</artifactId>
+                        <version>4.1.5</version>
                     </dependency>
                 </dependencies>
             </plugin>

@@ -7,6 +7,7 @@
     <!--<context id="MYSQLTables" targetRuntime="MyBatis3">-->
     <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
         <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <!--tk.mybatis必备-->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
             <!-- caseSensitive默认false，当数据库表名区分大小写时，可以将该属性设置为true -->
