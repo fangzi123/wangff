@@ -19,9 +19,9 @@
                         <!--userId="lms" password="lmsZdWI1o">-->
         <!--</jdbcConnection>-->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.168.9.240:3306/activity?useUnicode=true&amp;characterEncoding=utf-8"
-                        userId="activity"
-                        password="activity_dazb">
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/db2?useUnicode=true&amp;characterEncoding=utf-8"
+                        userId="root"
+                        password="wj370307">
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="com.wdcloud.wangff.model"
@@ -42,7 +42,7 @@
             <!--<property name="useActualColumnNames" value="false"/>-->
             <!--<generatedKey column="id" sqlStatement="mysql" identity="true"/>-->
         <!--</table>-->
-        <table schema="activity" tableName="wd_user">
+        <table schema="db2" tableName="name_info2">
             <property name="useActualColumnNames" value="false"/>
             <generatedKey column="id" sqlStatement="mysql" identity="true"/>
         </table>
