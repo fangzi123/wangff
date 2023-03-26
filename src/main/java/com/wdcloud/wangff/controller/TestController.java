@@ -32,6 +32,7 @@ public class TestController {
                 JSON.toJSONString(a));
         System.out.printf(JSON.toJSONString(b));
         System.out.printf(JSON.toJSONString(c));
+        wdUserMapper.abc();
         return a;
     }
 }

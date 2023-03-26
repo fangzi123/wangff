@@ -10,7 +10,7 @@
         <result column="password" jdbcType="VARCHAR" property="password"/>
     </resultMap>
 
-    <select id="adc" resultMap="BaseResultMap">
-        SELECT * FROM wd_user
+    <select id="abc" resultType="com.wdcloud.wangff.model.WdUser">
+        SELECT * FROM wd_user limit 1
     </select>
 </mapper>

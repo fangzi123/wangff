@@ -17,6 +17,6 @@ spring:
       username: root
       password: wj370307
 
-mybatis:
-  type-aliases-package: com.wdcloud.wangff.model
-  mapper-locations: classpath:mapper/**.xml
+#mybatis:   #多数据源会失效
+#  type-aliases-package: com.wdcloud.wangff.model
+#  mapper-locations: classpath:mapper/**.xml
